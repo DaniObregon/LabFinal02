@@ -5,7 +5,6 @@ import ar.com.danio.peliculas.excepciones.AccesoDatosEx;
 import ar.com.danio.peliculas.excepciones.EscrituraDatosEx;
 import ar.com.danio.peliculas.excepciones.LecturaDatosEx;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
