@@ -53,7 +53,7 @@ public class AccesoDatosImp implements IAccesoDatos {
             var salida = new PrintWriter(new FileWriter(archivo, anexar));
             salida.println(pelicula.toString());
             salida.close();
-            System.out.println("Se ha escrito información en el archivo" + pelicula);
+            System.out.println("Se ha escrito información en el archivo: " + pelicula);
         } catch (IOException ex) {
             ex.printStackTrace();
             throw new EscrituraDatosEx("Excepción al escribir películas: " + ex.getMessage());
