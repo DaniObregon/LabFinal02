@@ -13,7 +13,7 @@ public interface IAccesoDatos {
     
     public List<Pelicula> listar(String nombreRecurso) throws LecturaDatosEx;
     
-    public void escribir(Pelicula pelicula, String nombreArchivo, boolean anexar) throws EscrituraDatosEx;
+    public void escribir(Pelicula pelicula, String nombreRecurso, boolean anexar) throws EscrituraDatosEx;
     
     public String buscar(String nombreRecurso, String buscar) throws LecturaDatosEx;
     
